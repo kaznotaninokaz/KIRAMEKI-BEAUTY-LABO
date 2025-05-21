@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* ベースのスタイル
+------------------------------------------ */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.75;
+  color: #333;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+ul {
+  list-style: none;
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* 部品
+------------------------------------------s */
+
+/* ヘッダー
+-------------------------------------------*/
+.header__container{
+  position: relative;
+  top: -.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.9375rem;
+  padding: .5625rem .625rem;
+}
+@media(min-width:768px){
+  .header__container{
+    max-width: 65.3125rem;
+    margin: 0 auto;
+    height: 5.9375rem;
+  }
+}
+/* ヘッダーロゴ */
+.header-logo{
+  padding-top: .5rem;
+}
+@media(min-width:768px){
+  .header-logo img{
+  width: 135%;
+  max-width: 135%;
+  }
+
+}
+/* ヘッダーボタン */
+.header__container-button{
+  display: flex;
+  column-gap: .625rem;
+}
+@media(min-width:768px){
+  .header__container-button{
+  column-gap: 1.0625rem;
+}
+}
+.header__container-button a{
+  font-size: .75rem;
+  font-weight: 400;
+  border-radius: .9688rem;
+  letter-spacing: .0625rem;
+}
+@media(min-width:768px){
+  .header__container-button a{
+  font-size: 1.3125rem;
+  border-radius: 1.5737rem;
+}
+}
+.header__container-button a:first-child{
+  background-color: #fa7da3;
+  padding: .3125rem .625rem;
+}
+@media(min-width:768px){
+  .header__container-button a:first-child{
+  background-color: #fa7da3;
+  padding: .3125rem 1.25rem;
+}
+}
+.header__container-button a:last-child{
+  background-color: #49c43d;
+  padding: .3125rem .5rem;
+}@media(min-width:768px){
+  .header__container-button a:last-child{
+  background-color: #49c43d;
+  padding: .3125rem 1.1875rem;
+  }
+}
+.header__container-button a span{
+  font-size: .625rem;
+}@media(min-width:768px){
+.header__container-button a span{
+  font-size: 1.0625rem;
+  }
+}
