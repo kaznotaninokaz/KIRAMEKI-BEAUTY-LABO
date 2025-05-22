@@ -4,7 +4,7 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.75;
   color: #333;
 }
@@ -40,7 +40,7 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 3.9375rem;
+  height: 3.75rem;
   padding: .5625rem .625rem;
 }
 @media(min-width:768px){
@@ -52,7 +52,7 @@ html, body {
 }
 /* ヘッダーロゴ */
 .header-logo{
-  padding-top: .5rem;
+  padding-top: .875rem;
 }
 @media(min-width:768px){
   .header-logo img{
@@ -73,7 +73,6 @@ html, body {
 }
 .header__container-button a{
   font-size: .75rem;
-  font-weight: 400;
   border-radius: .9688rem;
   letter-spacing: .0625rem;
 }
@@ -109,3 +108,360 @@ html, body {
   font-size: 1.0625rem;
   }
 }
+/* カバー
+---------------------------------------------------- */
+.cover{
+  background-color: #fa7da3;
+}
+.cover__container{
+  position: relative;
+  height: 19.6875rem;
+  overflow: hidden;
+}
+@media(min-width:768px){
+.cover__container{
+  height: 610px;
+  max-width: 63.75rem;
+  margin: 0 auto;
+}
+}
+/* トップ */
+.cover__container-top{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 2;
+}
+/* タイトル */
+.cover__container-top-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media(min-width:768px){
+  .cover__container-top-title{
+  align-items: flex-end;
+}
+}
+.cover__container-top-title h2{
+  font-size: 2.625rem;
+  line-height: 1.2;
+}
+@media(min-width:768px){
+  .cover__container-top-title h2{
+  font-size: 7.6344rem;
+  line-height: 1.2;
+  }
+}
+@media(min-width:768px) and (max-width:970px){
+  .cover__container-top-title h2{
+  font-size:clamp(2.625rem, 10vw , 7.6344rem) ;
+  }
+}
+.cover__container-top-title p{
+  font-size: 1.125rem;
+}
+@media(min-width:768px){
+  .cover__container-top-title p{
+  font-size: 2.25rem;
+  transform: translateX(1.875rem);
+}
+}
+/* スペシャルプライス */
+.cover__container-top-special-price{
+  margin-left: 1.3125rem;
+}
+@media(min-width:768px){
+  .cover__container-top-special-price{
+  margin-left: 2.6875rem;
+}
+}
+.special-price{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.3);
+  box-shadow: .221rem .221rem 0 0 rgba(0, 0, 0, 0.25);
+  padding: 1.125rem .625rem;
+  width: 108%;
+}
+@media(min-width:768px){
+  .special-price{
+  column-gap: .9375rem;
+  padding: 2rem 2.625rem;
+  width: 104%;
+  }
+}
+
+.special-price__top{
+  margin-left: .875rem;
+}
+.special-price__top p:first-child{
+  font-size: .8125rem;
+  color: #fa7da3;
+  background-color: #fff;
+  padding: 0 .3125rem;
+  margin-top: .4375rem;
+}
+@media(min-width:768px){
+  .special-price__top p:first-child{
+  font-size: 1.8281rem;
+}
+}
+.special-price__top p:last-child{
+  font-size: 1.5rem;
+  color: #fff;
+}
+@media(min-width:768px){
+  .special-price__top p:last-child{
+  font-size: 3.375rem;
+}
+}
+.special-price__bottom{
+  color: #fffd7a;
+  margin-left: .625rem;
+}
+.special-price__bottom p{
+  font-size: 4.6875rem;
+  line-height: 0.3;
+}
+@media(min-width:768px){
+  .special-price__bottom p{
+  font-size: 10.3125rem;
+  line-height: 0.3;
+}
+}
+.special-price__bottom p span{
+  font-size: 2.1875rem;
+}
+@media(min-width:768px){
+  .special-price__bottom p span{
+  font-size: 4.875rem;
+}
+}
+/* ボトム */
+.cover__container-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.cover__container-bottom img {
+  position: absolute;
+  z-index: 1;
+  top: -1%;
+  left: clamp(0%, calc(0% + ((100vw - 390px) * 0.5)), 22%);
+  width: clamp(51%, calc(100% - ((100vw - 390px) * 1)), 100%);
+}
+@media(min-width:768px){
+  .cover__container-bottom img {
+      top:clamp(0%, calc(28% - ((100vw - 768px) * 0.3)), 28%);
+      left: -21%;
+      width: clamp(135%, calc(135% + ((100vw - 768px) * 0.1)), 142%);
+      max-width: 142%;
+  }
+}
+
+
+.cover__container-bottom-item{
+  position: absolute;
+  top: 36%;
+  right: clamp(7%, calc(7% + ((100vw - 390px) * 0.4)), 28%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 1.125rem;
+  z-index: 2;
+  color: #fff;
+}
+@media(min-width:768px){
+  .cover__container-bottom-item{
+  row-gap: 2.5625rem;
+  right: 2.5%;
+  }
+}
+/* アイテムトップ */
+.cover__container-bottom-item-top{
+  font-family: "Outfit";
+  font-size: .8125rem;
+}
+@media(min-width:768px){
+  .cover__container-bottom-item-top{
+  font-size: 1.75rem;
+  margin-right: 3.75rem;
+  }
+}
+.cover__container-bottom-item-top p span{
+  font-size: .5625rem;
+}
+@media(min-width:768px){
+  .cover__container-bottom-item-top p span{
+  font-size: 1.0625rem;
+  }
+}
+
+/* アイテムボトム */
+.cover__container-bottom-item-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: .75rem;
+}
+@media(min-width:768px){
+  .cover__container-bottom-item-bottom{
+  row-gap: 1.25rem;
+  }
+
+}
+.cover__container-bottom-item-bottom p{
+  font-size: 1.125rem;
+  border: .0625rem solid #fff;
+  padding: .0625rem .6875rem;
+}
+@media(min-width:768px){
+  .cover__container-bottom-item-bottom p{
+  font-size: 1.75rem;
+  padding: .5625rem 7.875rem;
+  }
+}
+.cover__container-bottom-item-bottom p:first-child{
+  padding: .0625rem 1.8125rem;
+}
+@media(min-width:768px){
+  .cover__container-bottom-item-bottom p:first-child{
+  padding: .5625rem 9.625rem;
+  }
+}
+/* 今だけ
+----------------------------------------------------------*/
+.course--now__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fffedd;
+    padding-bottom: 1.0625rem;
+}
+@media(min-width:768px){
+  .course--now__container{
+    padding-bottom: 1.0625rem;
+}
+}
+/* タイトル */
+.course--now__container-title{
+  position: relative;
+  display: inline-block;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  color: #fa7da3;
+  padding-top: 1rem;
+  padding-left: .625rem;
+  letter-spacing: -.125rem;
+}
+@media(min-width:768px){
+  .course--now__container-title{
+  font-size: 2.1875rem;
+  padding-top: 1.875rem;
+  }
+}
+.course--now__container-title::after,
+.course--now__container-title::before{
+  content: "";
+  position: absolute;
+  top: 62%;
+  transform: translateY(-50%);
+  font-size: 1.3125rem;
+  color: #fa7da3;
+  font-weight: bold;
+}
+@media(min-width:768px){
+  .course--now__container-title::after,
+  .course--now__container-title::before{
+  top: 69%;
+  font-size: 2.1875rem;
+}
+}
+.course--now__container-title::after{
+  content: "／";
+  right: -1em;
+  transform: rotate(-15deg) translateY(-50%);
+}
+.course--now__container-title::before{
+  content: "＼";
+  left: -1em;
+  transform: rotate(15deg) translateY(-50%);
+}
+/* アイテム */
+.course--now__container-item{
+  border: 1px solid #fa7da3;
+  border-radius: .625rem;
+  text-align: center;
+  margin-top: .4375rem;
+}
+@media(min-width:768px){
+  .course--now__container-item{
+  margin-top: .6875rem;
+  margin-left: .125rem;
+  }
+}
+.course--now__container-item p:first-child{
+  font-size: 1.3125rem;
+  color: #fff;
+  background-color: #fa7da3;
+  border-radius: .625rem .625rem 0 0 ;
+  line-height: 1.5;
+  padding: 0 5.0625rem;
+}
+@media(min-width:768px){
+  .course--now__container-item p:first-child{
+  font-size: 2rem;
+  padding: 0 8.1875rem;
+  }
+}
+.course--now__container-item p:last-child{
+  font-size: 27px;
+  color: #fa7da3;
+  background-color: #fff;
+  border-radius: 0 0 .625rem .625rem;
+  line-height: 1.4;
+  padding-left:.5625rem ;
+}
+@media(min-width:768px){
+  .course--now__container-item p:last-child{
+  font-size: 2.625rem;
+  padding-bottom: .625rem;
+  padding-left:.875rem ;
+  letter-spacing: .125rem;
+  }
+}
+.course--now__container-item p:last-child span{
+  font-size: 2.6875rem;
+  font-weight: 700;
+}
+@media(min-width:768px){
+  .course--now__container-item p:last-child span{
+  font-size: 4.0625rem;
+  }
+}
+
+/* アイテムボトム */
+.course--now__container-item-bottom{
+  font-size: .625rem;
+  padding-top: .375rem;
+}
+@media(min-width:768px){
+  .course--now__container-item-bottom{
+  font-size: .875rem;
+  padding-top: .8125rem;
+  }
+}
+
+
+
+
+
+
