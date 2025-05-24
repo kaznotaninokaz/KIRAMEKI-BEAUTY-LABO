@@ -1398,9 +1398,6 @@ html, body {
   background-color: #fa7da3;
 }
 .footer__logo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-top: .8125rem;
   padding-bottom: .75rem;
 }
@@ -1409,6 +1406,11 @@ html, body {
     padding-top: 1.75rem;
     padding-bottom: 1.5rem;
   }
+}
+.footer__logo a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer__logo img{
   width: 19%;
