@@ -56,6 +56,26 @@ html, body {
   top: 37%;
   right: 8%;
 }
+/* コンテナ */
+.container{
+  padding: 1.875rem 1.25rem;
+  max-width: 51.25rem;
+  margin: 0 auto;
+}
+@media(min-width:768px){
+  .container{
+  padding: 3rem 1.25rem;
+  }
+}
+
+/* 部分脱毛プラン blue */
+.blue{
+  position: absolute;
+  background-color: #50bfff;
+  border-radius: 50%;
+  opacity: 0.502;
+}
+
 /* ヘッダー
 -------------------------------------------*/
 .header__container{
@@ -520,6 +540,12 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2.25rem;
+}
+@media(min-width:768px){
+  .trial--free__item-bottom{
+    margin-bottom: 3.1875rem;
+  }
 }
 
 .trial--free__item-bottom-title{
@@ -561,9 +587,506 @@ html, body {
     font-size: 1.0625rem;
   }
 }
+/* 3つのポイント
+------------------------------------------------ */
+.point{
+  background-color: #fdf0f5;
+}
+/* タイトル */
+.point__title-sub{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: .0313rem;
+}
+.point__title-sub img,
+.point__title-sub span{
+  display: inline-block;
+}
+.point__title-sub img{
+  width: 57%;
+}
+@media(min-width:768px){
+  .point__title-sub img{
+  width: 34%;
+}
+}
+.point__title-sub span{
+  font-size: 1.125rem;
+  color: #4d2b1b;
+}
 
+.point__title h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fa7da3;
+}
+.point__title h2 img{
+  width: 10%;
+}
+@media(min-width:768px){
+  .point__title h2 img{
+  width: 7%;
+}
+}
+.point__title h2 p{
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .0625rem;
+}
+@media(min-width:768px){
+  .point__title h2 p{
+  font-size: 2.625rem;
+}
+}
+/* アイテム */
+/* point 1 */
+.point__item{
+  border: .0625rem solid #fa7da3;
+  border-radius: .625rem;
+  margin-top: 1rem;
+}
+@media(min-width:768px){
+  .point__item{
+  margin-top: 2.75rem;
+}
+}
+/* タイトル */
+.point__item-title{
+  font-size: 1.125rem;
+  background-color:#fa7da3;
+  color: #fff;
+  text-align: center;
+  border-radius: .625rem .625rem 0 0 ;
+  padding-top: .375rem;
+  padding-bottom: .4375rem;
+}
+@media(min-width:768px){
+  .point__item-title{
+  font-size: 1.75rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+}
+/* ボトム */
+.point__item-bottom{
+  background-color: #fff;
+  border-radius: 0 0 .625rem .625rem;
+  padding-bottom: .75rem;
+}
+.point__item-bottom p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .8125rem 1.0625rem .75rem 1.3125rem;
+  letter-spacing: -.0437rem;
+  line-height: 1.6;
+}
+@media(min-width:768px){
+  .point__item-bottom p{
+  font-size: 1.3125rem;
+  padding: 1.25rem 2.5rem 1.5rem;
+  letter-spacing: 0;
+  line-height: 1.7;
+  }
+}
+.point__item-bottom-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1.25rem;
+}
+@media(min-width:768px){
+  .point__item-bottom-box{
+    column-gap: 2.4375rem;
+  }
+  .point__item-bottom-box-01,
+  .point__item-bottom-box-02{
+    width: 30%;
+  }
+}
+.point__item-bottom-box-01 img{
+  display: block;
+  width: 99%;
+  border: .0625rem solid #fa7da3;
+  padding: 1.3125rem 2.1875rem;
+}
+@media(min-width:768px){
+  .point__item-bottom-box-01 img{
+  padding: 2.125rem 3.625rem;
+}
+}
+.point__item-bottom-box-02 p:first-child{
+  color: #433e3f;
+  font-size: 1.125rem;
+  text-align: center;
+  letter-spacing: .0625rem;
+  border: .0625rem solid #433e3f;
+  padding: 1.625rem 2.25rem 1.6875rem;
+}
+@media(min-width:768px){
+  .point__item-bottom-box-02 p:first-child{
+    font-size: 1.8125rem;
+    padding: 2.5625rem .0625rem 2.6875rem;
+  }
+}
+.point__item-bottom-box-01 span,
+.point__item-bottom-box-02 span{
+  display: block;
+  text-align: center;
+}
+@media(min-width:768px){
+  .point__item-bottom-box-01 span,
+  .point__item-bottom-box-02 span{
+      font-size: 1.3125rem;
+      margin-top: .25rem;
+      padding-bottom: 1.25rem;
+  }
+}
+.point__item-bottom-box-01 span{
+  padding-top: .375rem;
+  transform: translateY(-.125rem);
+}
+.point__item-bottom-box-02 span{
+  padding-top: .25rem;
+}
 
+/* point 2 */
+.point__item02{
+  margin-top: 1.9375rem;
+}
+@media(min-width:768px){
+  .point__item02{
+    margin-top: 3rem;
+  }
+}
+.point__item-bottom02{
+  padding-bottom: .5rem;
+}
+.point__item-bottom02 p{
+  letter-spacing: -.0125rem;
+}
+@media(min-width:768px){
+  .point__item-bottom02 p{
+    padding-top: 1.5rem;
+    padding-bottom: 1.1875rem;
+    letter-spacing: 0;
+  }
+}
+.point__item-bottom02 .point__item-bottom-box{
+  flex-direction: column;
+}
+/* boxアイテム3 */
+.point__item-bottom-box-03{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.point__item-bottom-box-03 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4375rem;
+  font-weight: 600;
+  color: #4d2c1c;
+  padding-top: .3125rem;
+}
+@media (min-width:768px){
+  .point__item-bottom-box-03 p{
+    font-size: 1.5rem;
+    padding-top: 0;
+    padding-bottom: .875rem;
+  }
+}
+.point__item-bottom-box-03 img{
+  width: 96%;
+  padding-top: .6875rem;
+  padding-left: 1.3125rem;
+}
+@media(min-width:768px){
+  .point__item-bottom-box-03 img{
+    width: 69%;
+    padding-top: 0;
+    padding-left: .5rem;
+  }
+}
+/* パーツ説明 */
+.point__item-bottom-box-03-parts{
+  position: absolute;
+}
+.point__item-bottom-box-03-parts p{
+  font-size: .75rem;
+  line-height: 0.1;
+}
+@media(min-width:768px){
+  .point__item-bottom-box-03-parts p{
+    font-size: 1rem;
+    line-height: 0.6;
+  }
+}
+.parts01{
+  top: 15%;
+  left: 32%;
+}
+@media(min-width:768px){
+  .parts01{
+    top: 12%;
+    left: 34%;
+  }
+}
+.parts02{
+  top: 41%;
+  left: 37%;
+}
+@media(min-width:768px){
+  .parts02{
+    top: 33%;
+  }
+}
+.parts03{
+  top: 49.5%;
+  left: 39%;
+}
+@media(min-width:768px){
+  .parts03{
+    top: 50.5%;
+    left: 40%;
+  }
+}
+.parts04{
+  top: 66.5%;
+  left: 38%;
+}
+@media(min-width:768px){
+  .parts04{
+    top: 63%;
+    left: 35.5%;
+  }
+}
+.parts05{
+  top: 78.5%;
+  left: 40.5%;
+}
+@media(min-width:768px){
+  .parts05{
+    top: 70.5%;
+    left: 37.5%;
+  }
+}
+.parts06{
+  top: 83%;
+  left: 39%;
+}
+@media(min-width:768px){
+  .parts06{
+    top: 95%;
+    left: 33.5%;
+  }
+}
+.parts07{
+  top: 25.5%;
+  right: 2.5%;
+}
+@media(min-width:768px){
+  .parts07{
+    top: 20%;
+    right: 16.5%;
+  }
+}
+.parts08{
+  top: 36.5%;
+  right: 1.5%;
+}
+@media(min-width:768px){
+  .parts08{
+    top: 32%;
+    right: 12.5%;
+  }
+}
+.parts09{
+  top: 65%;
+  right: -0.5%;
+}
+@media(min-width:768px){
+  .parts09{
+    top: 46%;
+    right: 7%;
+  }
+}
+/* boxアイテム4 */
+.point__item-bottom-box-04 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4375rem;
+  font-weight: 600;
+  color: #4d2c1c;
+  padding-top: 2.125rem;
+  padding-bottom: 1.375rem;
+}
+@media(min-width:768px){
+  .point__item-bottom-box-04 p{
+    font-size: 1.5rem;
+    padding-top: 3.3125rem;
+    padding-bottom: 1.5625rem;
+  }
+}
+.point__item-bottom-box-04-parts{
+  width: 20rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5625rem;
+  margin: 0 auto;
+}
+@media(min-width:768px){
+  .point__item-bottom-box-04-parts{
+    width: 41.0625rem;
+    grid-template-columns: repeat(6, 1fr);
+    gap: .75rem;
+  }
+}
+.point__item-bottom-box-04-parts-list{
+  position: relative;
+}
+.point__item-bottom-box-04-parts-list p{
+  font-size: .875rem;
+  color: #fa7da3;
+  font-weight: 600;
+  padding-top: 0;
+  padding-bottom: .8125rem;
+  line-height: 1.1;
+  padding-left: 1rem;
+}
+@media(min-width:768px){
+  .point__item-bottom-box-04-parts-list p{
+    padding: 0 0 1.75rem;
+  }
+}
+.point__item-bottom-box-04-parts .point__item-bottom-box-04-parts-list:last-child p{
+  padding: 0;
+}
 
+@media (max-width: 400px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2列にするなど */
+  }
+}
+/* サークル */
+.circle-01{
+    top: 50%;
+    right: 35%;
+    width: 2rem;
+    height: 1.1875rem;
+}
+@media(min-width:768px){
+  .circle-01{
+    top: 42%;
+    right: 34%;
+  }
+}
+.circle-02,
+.circle-03{
+    width: 1.25rem;
+    height: 1.1875rem;
+}
+.circle-02{
+    top: 27%;
+    left: 6%;
+}
+@media(min-width:768px){
+  .circle-02{
+    top: 24%;
+  }
+}
+.circle-03{
+    top: 26%;
+    right: 7%;
+}
+@media(min-width:768px){
+  .circle-03{
+    top: 24%;
+  }
+}
+.circle-04{
+    top: 42%;
+    right: 35%;
+    width: 1.625rem;
+    height: 1.625rem;
+}
+@media(min-width:768px){
+  .circle-04{
+    top: 38%;
+  }
+}
+.circle-05{
+    top: 26%;
+    right: 34%;
+    width: 2.0625rem;
+    height: 1.1875rem;
+}
+@media(min-width:768px){
+.circle-05{
+    top: 23%;
+    right: 32%;
+  }
+}
+.circle-06{
+    top: 63%;
+    right: 42%;
+    width: 1rem;
+    height: .375rem;
+}
+@media(min-width:768px){
+  .circle-06{
+    top: 57%;
+    right: 41%;
+  }
+}
+.circle-07,
+.circle-08{
+  width: 1.1875rem;
+  height: .4375rem;
+}
+.circle-07{
+    top: 58%;
+    left: 36%;
+    transform: translate(-50%, -50%) rotate(60deg);
+}
+@media(min-width:768px){
+.circle-07{
+    top: 53%;
+  }
+}
+.circle-08{
+    top: 58%;
+    right: 15%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+}
+@media(min-width:768px){
+  .circle-08{
+    top: 53%;
+  }
+}
+/* point 3 */
+.point__item03{
+  margin-top: 1.9375rem;
+}
+@media(min-width:768px){
+  .point__item03{
+    margin-top: 3.125rem;
+  }
+}
+.point__item-bottom03{
+  padding-bottom: .1875rem;
+}
+@media(min-width:768px){
+  .point__item-bottom03{
+    padding-bottom: .4375rem;
+  }
+}
 
 
 
