@@ -30,6 +30,42 @@ html, body {
 
 /* 部品
 ------------------------------------------ */
+/* 無料体験 */
+.trial--free__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: .4375rem;
+}
+@media(min-width:768px){
+  .trial--free__item{
+    padding-top: 3.3125rem;
+  }
+}
+/* 3つのポイント下無料体験 */
+.trial--free__item-course-bottom{
+  padding-top: 1.375rem;
+}
+@media(min-width:768px){
+  .trial--free__item-course-bottom{
+    padding-top: 2.8125rem;
+  }
+}
+.trial--free__item-title{
+  font-size:  1.3125rem;
+  font-weight: 600;
+  color: #fa7da3;
+  padding-left: .4375rem;
+  letter-spacing: .125rem;
+}
+@media(min-width:768px){
+  .trial--free__item-title{
+    font-size: 2.125rem;
+    padding-left: .8125rem;
+    letter-spacing: .1875rem;
+  }
+}
 /* 無料体験ボタン */
 .trial--free__button{
   position: relative;
@@ -56,6 +92,45 @@ html, body {
   top: 37%;
   right: 8%;
 }
+/* タイトル */
+.title-sub{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: .0313rem;
+}
+.title-sub span{
+  display: inline-block;
+}
+.title-sub span{
+  font-size: 1.125rem;
+  color: #4d2b1b;
+}
+
+.title h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fa7da3;
+}
+.title h2 img{
+  width: 10%;
+}
+@media(min-width:768px){
+  .title h2 img{
+  width: 7%;
+}
+}
+.title h2 p{
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .0625rem;
+}
+@media(min-width:768px){
+  .title h2 p{
+  font-size: 2.625rem;
+  }
+}
 /* コンテナ */
 .container{
   padding: 1.875rem 1.25rem;
@@ -64,7 +139,7 @@ html, body {
 }
 @media(min-width:768px){
   .container{
-  padding: 3rem 1.25rem;
+  padding: 3rem 1.25rem 3.75rem;
   }
 }
 
@@ -508,32 +583,6 @@ html, body {
 
 /* 無料体験
 ------------------------------------------------*/
-.trial--free__item{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding-top: .4375rem;
-}
-@media(min-width:768px){
-  .trial--free__item{
-    padding-top: 3.3125rem;
-}
-}
-.rial--free__item-title{
-  font-size:  1.3125rem;
-  font-weight: 600;
-  color: #fa7da3;
-  padding-left: .4375rem;
-  letter-spacing: .125rem;
-}
-@media(min-width:768px){
-  .rial--free__item-title{
-    font-size: 2.125rem;
-    padding-left: .8125rem;
-    letter-spacing: .1875rem;
-  }
-}
 /*  無料体験内容 */
 .trial--free__item-bottom{
   display: flex;
@@ -593,14 +642,7 @@ html, body {
   background-color: #fdf0f5;
 }
 /* タイトル */
-.point__title-sub{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: .0313rem;
-}
-.point__title-sub img,
-.point__title-sub span{
+.point__title-sub img{
   display: inline-block;
 }
 .point__title-sub img{
@@ -609,36 +651,7 @@ html, body {
 @media(min-width:768px){
   .point__title-sub img{
   width: 34%;
-}
-}
-.point__title-sub span{
-  font-size: 1.125rem;
-  color: #4d2b1b;
-}
-
-.point__title h2{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fa7da3;
-}
-.point__title h2 img{
-  width: 10%;
-}
-@media(min-width:768px){
-  .point__title h2 img{
-  width: 7%;
-}
-}
-.point__title h2 p{
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: .0625rem;
-}
-@media(min-width:768px){
-  .point__title h2 p{
-  font-size: 2.625rem;
-}
+  }
 }
 /* アイテム */
 /* point 1 */
@@ -649,8 +662,8 @@ html, body {
 }
 @media(min-width:768px){
   .point__item{
-  margin-top: 2.75rem;
-}
+    margin-top: 2.75rem;
+  }
 }
 /* タイトル */
 .point__item-title{
@@ -680,7 +693,6 @@ html, body {
   align-items: center;
   justify-content: center;
   padding: .8125rem 1.0625rem .75rem 1.3125rem;
-  letter-spacing: -.0437rem;
   line-height: 1.6;
 }
 @media(min-width:768px){
@@ -690,6 +702,15 @@ html, body {
   letter-spacing: 0;
   line-height: 1.7;
   }
+}
+.point__item-bottom01 p{
+  letter-spacing: -.0313rem;
+}
+@media(min-width:768px){
+  .point__item-bottom01 p{
+  letter-spacing: 0;
+  padding: 1.3125rem 2.875rem 1.3125rem 0;
+}
 }
 .point__item-bottom-box{
   display: flex;
@@ -762,16 +783,17 @@ html, body {
   }
 }
 .point__item-bottom02{
-  padding-bottom: .5rem;
+  padding-bottom: .375rem;
 }
-.point__item-bottom02 p{
-  letter-spacing: -.0125rem;
+@media(min-width:768px){
+  .point__item-bottom02{
+    padding-bottom: .5625rem;
+  }
 }
 @media(min-width:768px){
   .point__item-bottom02 p{
     padding-top: 1.5rem;
     padding-bottom: 1.1875rem;
-    letter-spacing: 0;
   }
 }
 .point__item-bottom02 .point__item-bottom-box{
@@ -802,9 +824,8 @@ html, body {
   }
 }
 .point__item-bottom-box-03 img{
-  width: 96%;
+  width: 90%;
   padding-top: .6875rem;
-  padding-left: 1.3125rem;
 }
 @media(min-width:768px){
   .point__item-bottom-box-03 img{
@@ -828,7 +849,7 @@ html, body {
   }
 }
 .parts01{
-  top: 15%;
+  top: 16%;
   left: 32%;
 }
 @media(min-width:768px){
@@ -857,7 +878,7 @@ html, body {
   }
 }
 .parts04{
-  top: 66.5%;
+  top: 67%;
   left: 38%;
 }
 @media(min-width:768px){
@@ -867,7 +888,7 @@ html, body {
   }
 }
 .parts05{
-  top: 78.5%;
+  top: 80%;
   left: 40.5%;
 }
 @media(min-width:768px){
@@ -877,7 +898,7 @@ html, body {
   }
 }
 .parts06{
-  top: 83%;
+  top: 84%;
   left: 39%;
 }
 @media(min-width:768px){
@@ -907,7 +928,7 @@ html, body {
   }
 }
 .parts09{
-  top: 65%;
+  top: 66%;
   right: -0.5%;
 }
 @media(min-width:768px){
@@ -924,7 +945,7 @@ html, body {
   font-size: 1.4375rem;
   font-weight: 600;
   color: #4d2c1c;
-  padding-top: 2.125rem;
+  padding-top: 2.5rem;
   padding-bottom: 1.375rem;
 }
 @media(min-width:768px){
@@ -1086,7 +1107,118 @@ html, body {
   .point__item-bottom03{
     padding-bottom: .4375rem;
   }
+  .point__item-bottom03 p{
+    justify-content: flex-start;
+    padding: 1.4375rem 2.5rem;
+
+  }
 }
+/* 2つのコース
+----------------------------------------------------------*/
+.course__container{
+  padding-top: 2.6875rem;
+}
+@media(min-width:768px){
+  .course__container{
+  padding-top: 3.125rem;
+}
+}
+/* タイトル */
+.course__title-sub p{
+  font-size: 1.125rem;
+  letter-spacing: 0;
+}
+@media(min-width:768px){
+  .course__title-sub p{
+    font-size: 1.5rem;
+    padding-left: .3125rem;
+  }
+}
+.course__title h2 img:first-child{
+  margin-right: .625rem;
+}
+/* アイテム */
+.course__item{
+  margin-top: 1.125rem;
+  max-width: 45.625rem;
+}
+@media(min-width:768px){
+  .course__item{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.9375rem;
+    margin:  1.9375rem auto 0;
+  }
+}
+.course__item-content{
+  border: 1px solid #fa7da3;
+  border-radius: .625rem;
+}
+.course__item-content-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  color: #fa7da3;
+  background-color: #fdf0f5;
+  border-radius: .625rem .625rem 0 0 ;
+  padding-top: .3125rem;
+  padding-bottom: .5rem;
+}
+@media(min-width:768px){
+  .course__item-content-title{
+  font-size: 1.75rem;
+}
+}
+.course__item-content-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0 0 .625rem .625rem;
+}
+.course__item-content-bottom p{
+  padding: .6875rem 1.3125rem;
+  line-height: 1.6;
+}
+@media(min-width:768px){
+  .course__item-content-bottom p{
+    font-size: 1.125rem;
+    padding: .5rem 1.3125rem .75rem;
+    line-height: 1.5;
+  }
+}
+.course__item-content-bottom img{
+  width: 90%;
+  padding-bottom: 1.125rem;
+}
+@media(min-width:768px){
+  .course__item-content:last-child img{
+    width: 88%;
+  }
+}
+.course__item .course__item-content:last-child{
+  margin-top: 2rem;
+}
+@media(min-width:768px){
+  .course__item .course__item-content:last-child{
+    width: 86%;
+    margin-top: 0;
+  }
+  .course__item .course__item-content:last-child .course__item-content-bottom p{
+    padding: .3125rem .0625rem 1.0625rem;
+  }
+}
+/* 768pxでbrを切り替え */
+@media(max-width:767px){
+  .br--pc{
+    display: none;
+  }
+}
+
+
+
 
 
 
