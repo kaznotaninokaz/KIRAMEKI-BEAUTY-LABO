@@ -74,7 +74,7 @@ html, body {
 @media(min-width:768px){
   .trial--free__item-voice-bottom{
   padding-top: 2.6875rem;
-  padding-bottom: 4rem;
+  padding-bottom: 4.1875rem;
 }
 }
 /* 無料体験ボタン */
@@ -94,9 +94,9 @@ html, body {
   .trial--free__button{
     font-size: 2.1875rem;
     border-radius: 4.0656rem;
-    margin-top: .8125rem;
+    margin-top: .6875rem;
     padding: 1.125rem 7.375rem;
-}
+  }
 }
 .fa-chevron-right{
   position: absolute;
@@ -106,7 +106,7 @@ html, body {
 /* タイトル */
 .title-sub{
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   letter-spacing: .0313rem;
 }
@@ -137,13 +137,13 @@ html, body {
   width: 6%;
 }
 }
-.title h2 p{
+.title h2 span{
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: .0625rem;
 }
 @media(min-width:768px){
-  .title h2 p{
+  .title h2 span{
   font-size: 2.625rem;
   }
 }
@@ -306,10 +306,12 @@ html, body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-left: .4375rem;
 }
 @media(min-width:768px){
   .cover__container-top-title{
   align-items: flex-end;
+  margin-left: 0;
 }
 }
 .cover__container-top-title h2{
@@ -339,11 +341,11 @@ html, body {
 }
 /* スペシャルプライス */
 .cover__container-top-special-price{
-  margin-left: 1.3125rem;
+  margin-left: 1.25rem;
 }
 @media(min-width:768px){
   .cover__container-top-special-price{
-  margin-left: 2.6875rem;
+  margin-left: 2.625rem;
 }
 }
 .special-price{
@@ -352,7 +354,7 @@ html, body {
   align-items: center;
   background-color: rgb(255, 255, 255, 0.3);
   box-shadow: .221rem .221rem 0 0 rgba(0, 0, 0, 0.25);
-  padding: 1.125rem .625rem;
+  padding: 1.125rem .875rem;
   width: 108%;
 }
 @media(min-width:768px){
@@ -364,7 +366,13 @@ html, body {
 }
 .special-price__top{
   font-weight: 700;
-  margin-left: .875rem;
+  margin-left: .4375rem;
+}
+@media(min-width:768px){
+  .special-price__top{
+    padding-top: .1875rem;
+    margin-left: .6875rem;
+  }
 }
 .special-price__top p:first-child{
   font-size: .8125rem;
@@ -372,6 +380,7 @@ html, body {
   background-color: #fff;
   padding: 0 .3125rem;
   margin-top: .4375rem;
+  margin-left: .25rem;
 }
 @media(min-width:768px){
   .special-price__top p:first-child{
@@ -381,6 +390,7 @@ html, body {
 .special-price__top p:last-child{
   font-size: 1.5rem;
   color: #fff;
+  padding-left: .1875rem;
 }
 @media(min-width:768px){
   .special-price__top p:last-child{
@@ -532,7 +542,7 @@ html, body {
 @media(min-width:768px){
   .course--now__container-title{
   font-size: 2.1875rem;
-  padding-top: 1.875rem;
+  padding-top: 2rem;
   }
 }
 .course--now__container-title::after,
@@ -601,8 +611,7 @@ html, body {
 @media(min-width:768px){
   .course--now__container-item p:last-child{
   font-size: 2.625rem;
-  padding-bottom: 1rem;
-  padding-left:.875rem ;
+  padding: .0625rem 0 1rem 1.25rem;
   letter-spacing: .125rem;
   }
 }
@@ -782,8 +791,8 @@ html, body {
 }
 @media(min-width:768px){
   .point__item-bottom-box-01 img{
-  padding: 2.125rem 3.625rem;
-}
+    padding: 2.125rem 3.625rem 2.3125rem;
+  }
 }
 .point__item-bottom-box-02 p:first-child{
   color: #433e3f;
@@ -796,7 +805,7 @@ html, body {
 @media(min-width:768px){
   .point__item-bottom-box-02 p:first-child{
     font-size: 1.8125rem;
-    padding: 2.5625rem .0625rem 2.6875rem;
+    padding: 2.5625rem .0625rem 2.75rem;
   }
 }
 .point__item-bottom-box-01 span,
@@ -834,7 +843,7 @@ html, body {
 }
 @media(min-width:768px){
   .point__item-bottom02{
-    padding-bottom: .5625rem;
+    padding-bottom: .4375rem;
   }
 }
 @media(min-width:768px){
@@ -1196,7 +1205,7 @@ html, body {
     display: flex;
     flex-direction: row;
     column-gap: 1.9375rem;
-    margin:  1.9375rem auto 0;
+    margin:  2rem auto 0;
   }
 }
 .course__item-content{
@@ -1311,7 +1320,7 @@ html, body {
 }
 @media(min-width:768px){
   .voices__slick-inner{
-    margin: 1.6875rem auto;
+    margin: 1.9375rem auto 1.5rem;
   }
 }
 .voices__slick-inner-title{
