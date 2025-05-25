@@ -73,9 +73,9 @@ html, body {
 }
 @media(min-width:768px){
   .trial--free__item-voice-bottom{
-  padding-top: 2.6875rem;
-  padding-bottom: 4.1875rem;
-}
+    padding-top: 2.6875rem;
+    padding-bottom: 4.1875rem;
+  }
 }
 /* 無料体験ボタン */
 .trial--free__button{
@@ -144,7 +144,7 @@ html, body {
 }
 @media(min-width:768px){
   .title h2 span{
-  font-size: 2.625rem;
+    font-size: 2.625rem;
   }
 }
 /* コンテナ */
@@ -155,7 +155,7 @@ html, body {
 }
 @media(min-width:768px){
   .container{
-  padding: 3rem 1.25rem 3.75rem;
+    padding: 3rem 1.25rem 3.75rem;
   }
 }
 
@@ -192,8 +192,8 @@ html, body {
 }
 @media(min-width:768px){
   .header__logo img{
-  width: 135%;
-  max-width: 135%;
+    width: 135%;
+    max-width: 135%;
   }
 
 }
@@ -204,8 +204,8 @@ html, body {
 }
 @media(min-width:768px){
   .header__container-button{
-  column-gap: 1.3125rem;
-}
+    column-gap: 1.3125rem;
+  }
 }
 .header__container-button a{
   position: relative;
@@ -215,9 +215,9 @@ html, body {
 }
 @media(min-width:768px){
   .header__container-button a{
-  font-size: 1.3125rem;
-  border-radius: 1.5737rem;
-}
+    font-size: 1.3125rem;
+    border-radius: 1.5737rem;
+  }
 }
 .header__container-button a:first-child{
   background-color: #fa7da3;
@@ -225,10 +225,10 @@ html, body {
 }
 @media(min-width:768px){
   .header__container-button a:first-child{
-  background-color: #fa7da3;
-  padding: .3125rem 2.3125rem .3125rem 1.5rem;
-  letter-spacing: .0313rem;
-}
+    background-color: #fa7da3;
+    padding: .3125rem 2.3125rem .3125rem 1.5rem;
+    letter-spacing: .0313rem;
+  }
 }
 .header__container-button a:last-child{
   background-color: #49c43d;
@@ -237,16 +237,16 @@ html, body {
 }
 @media(min-width:768px){
   .header__container-button a:last-child{
-  background-color: #49c43d;
-  padding: .3125rem 2.25rem .3125rem 1.375rem;
-  letter-spacing: .0125rem;
+    background-color: #49c43d;
+    padding: .3125rem 2.25rem .3125rem 1.375rem;
+    letter-spacing: .0125rem;
   }
 }
 .header__container-button a span{
   font-size: .625rem;
 }@media(min-width:768px){
 .header__container-button a span{
-  font-size: 1.0625rem;
+    font-size: 1.0625rem;
   }
 }
 /* 矢印 */
@@ -259,7 +259,7 @@ html, body {
 }
 @media(min-width:768px){
   .header__container-button a:first-child i{
-  top:  29%;
+    top:  29%;
   }
 }
 /* カウンセリング予約矢印 */
@@ -269,8 +269,8 @@ html, body {
 }
 @media(min-width:768px){
   .header__container-button a:last-child i{
-  top: 29%;
-  right: 5%;
+    top: 29%;
+    right: 5%;
   }
 }
 /* カバー
@@ -285,10 +285,10 @@ html, body {
 }
 @media(min-width:768px){
 .cover__container{
-  height: 38.125rem;
-  max-width: 63.75rem;
-  margin: 0 auto;
-}
+    height: 38.125rem;
+    max-width: 63.75rem;
+    margin: 0 auto;
+  }
 }
 /* トップ */
 .cover__container-top{
@@ -310,9 +310,9 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-top-title{
-  align-items: flex-end;
-  margin-left: 0;
-}
+    align-items: flex-end;
+    margin-left: 0;
+  }
 }
 .cover__container-top-title h2{
   font-size: 2.625rem;
@@ -321,13 +321,13 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-top-title h2{
-  font-size: 7.6344rem;
-  line-height: 1.2;
+    font-size: 7.6344rem;
+    line-height: 1.2;
   }
 }
 @media(min-width:768px) and (max-width:970px){
   .cover__container-top-title h2{
-  font-size:clamp(2.625rem, 10vw , 7.6344rem) ;
+    font-size:clamp(2.625rem, 10vw , 7.6344rem) ;
   }
 }
 .cover__container-top-title p{
@@ -335,9 +335,9 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-top-title p{
-  font-size: 2.25rem;
-  transform: translateX(1.875rem);
-}
+    font-size: 2.25rem;
+    transform: translateX(1.875rem);
+  }
 }
 /* スペシャルプライス */
 .cover__container-top-special-price{
@@ -345,8 +345,8 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-top-special-price{
-  margin-left: 2.625rem;
-}
+    margin-left: 2.625rem;
+  }
 }
 .special-price{
   display: flex;
@@ -359,9 +359,9 @@ html, body {
 }
 @media(min-width:768px){
   .special-price{
-  column-gap: .9375rem;
-  padding: 2rem 2.625rem;
-  width: 104%;
+    column-gap: .9375rem;
+    padding: 2rem 2.625rem;
+    width: 104%;
   }
 }
 .special-price__top{
@@ -384,8 +384,8 @@ html, body {
 }
 @media(min-width:768px){
   .special-price__top p:first-child{
-  font-size: 1.8281rem;
-}
+    font-size: 1.8281rem;
+  }
 }
 .special-price__top p:last-child{
   font-size: 1.5rem;
@@ -394,8 +394,8 @@ html, body {
 }
 @media(min-width:768px){
   .special-price__top p:last-child{
-  font-size: 3.375rem;
-}
+    font-size: 3.375rem;
+  }
 }
 .special-price__bottom{
   color: #fffd7a;
@@ -408,17 +408,17 @@ html, body {
 }
 @media(min-width:768px){
   .special-price__bottom p{
-  font-size: 10.3125rem;
-  line-height: 0.3;
-}
+    font-size: 10.3125rem;
+    line-height: 0.3;
+  }
 }
 .special-price__bottom p span{
   font-size: 2.1875rem;
 }
 @media(min-width:768px){
   .special-price__bottom p span{
-  font-size: 4.875rem;
-}
+    font-size: 4.875rem;
+  }
 }
 /* ボトム */
 .cover__container-bottom{
@@ -435,10 +435,10 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-bottom img {
-      top:clamp(0%, calc(28% - ((100vw - 768px) * 0.3)), 28%);
-      left: -21%;
-      width: clamp(135%, calc(135% + ((100vw - 768px) * 0.1)), 142%);
-      max-width: 142%;
+    top:clamp(0%, calc(28% - ((100vw - 768px) * 0.3)), 28%);
+    left: -21%;
+    width: clamp(135%, calc(135% + ((100vw - 768px) * 0.1)), 142%);
+    max-width: 142%;
   }
 }
 
@@ -456,8 +456,8 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-bottom-item{
-  row-gap: 2.5625rem;
-  right: 2.5%;
+    row-gap: 2.5625rem;
+    right: 2.5%;
   }
 }
 /* アイテムトップ */
@@ -467,8 +467,8 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-bottom-item-top{
-  font-size: 1.75rem;
-  margin-right: 3.75rem;
+    font-size: 1.75rem;
+    margin-right: 3.75rem;
   }
 }
 .cover__container-bottom-item-top p span{
@@ -476,7 +476,7 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-bottom-item-top p span{
-  font-size: 1.0625rem;
+    font-size: 1.0625rem;
   }
 }
 
@@ -490,7 +490,7 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-bottom-item-bottom{
-  row-gap: 1.25rem;
+    row-gap: 1.25rem;
   }
 
 }
@@ -501,8 +501,8 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-bottom-item-bottom p{
-  font-size: 1.75rem;
-  padding: .5625rem 7.875rem;
+    font-size: 1.75rem;
+    padding: .5625rem 7.875rem;
   }
 }
 .cover__container-bottom-item-bottom p:first-child{
@@ -510,7 +510,7 @@ html, body {
 }
 @media(min-width:768px){
   .cover__container-bottom-item-bottom p:first-child{
-  padding: .5625rem 9.625rem;
+    padding: .5625rem 9.625rem;
   }
 }
 /* 今だけ
@@ -526,7 +526,7 @@ html, body {
 @media(min-width:768px){
   .course--now__container{
     padding-bottom: 1.0625rem;
-}
+  }
 }
 /* タイトル */
 .course--now__container-title{
@@ -541,9 +541,9 @@ html, body {
 }
 @media(min-width:768px){
   .course--now__container-title{
-  font-size: 2.1875rem;
-  padding-top: 2rem;
-  }
+    font-size: 2.1875rem;
+    padding-top: 2rem;
+    }
 }
 .course--now__container-title::after,
 .course--now__container-title::before{
@@ -558,9 +558,9 @@ html, body {
 @media(min-width:768px){
   .course--now__container-title::after,
   .course--now__container-title::before{
-  top: 69%;
-  font-size: 2.1875rem;
-}
+    top: 69%;
+    font-size: 2.1875rem;
+  }
 }
 .course--now__container-title::after{
   content: "／";
@@ -581,9 +581,9 @@ html, body {
 }
 @media(min-width:768px){
   .course--now__container-item{
-  margin-top: .6875rem;
-  margin-left: .125rem;
-  }
+    margin-top: .6875rem;
+    margin-left: .125rem;
+    }
 }
 .course--now__container-item p:first-child{
   font-size: 1.3125rem;
@@ -595,8 +595,8 @@ html, body {
 }
 @media(min-width:768px){
   .course--now__container-item p:first-child{
-  font-size: 2rem;
-  padding: 0 8.1875rem;
+    font-size: 2rem;
+    padding: 0 8.1875rem;
   }
 }
 .course--now__container-item p:last-child{
@@ -733,10 +733,10 @@ html, body {
 }
 @media(min-width:768px){
   .point__item-title{
-  font-size: 1.75rem;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-}
+    font-size: 1.75rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+  }
 }
 /* ボトム */
 .point__item-bottom{
@@ -1171,9 +1171,9 @@ html, body {
 }
 @media(min-width:768px){
   .course__container{
-  padding-top: 3.125rem;
-  padding-bottom: 3.75rem;
-}
+    padding-top: 3.125rem;
+    padding-bottom: 3.75rem;
+  }
 }
 /* タイトル */
 .course__title-sub p{
@@ -1219,8 +1219,8 @@ html, body {
 }
 @media(min-width:768px){
   .course__item-content-title{
-  font-size: 1.75rem;
-}
+    font-size: 1.75rem;
+  }
 }
 .course__item-content-bottom{
   display: flex;
