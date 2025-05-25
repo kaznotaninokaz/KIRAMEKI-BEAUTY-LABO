@@ -285,7 +285,7 @@ html, body {
 }
 @media(min-width:768px){
 .cover__container{
-  height: 610px;
+  height: 38.125rem;
   max-width: 63.75rem;
   margin: 0 auto;
 }
@@ -574,7 +574,7 @@ html, body {
 }
 /* アイテム */
 .course--now__container-item{
-  border: 1px solid #fa7da3;
+  border: .0625rem solid #fa7da3;
   border-radius: .625rem;
   text-align: center;
   margin-top: .4375rem;
@@ -600,7 +600,7 @@ html, body {
   }
 }
 .course--now__container-item p:last-child{
-  font-size: 27px;
+  font-size: 1.6875rem;
   color: #fa7da3;
   background-color: #fff;
   border-radius: 0 0 .625rem .625rem;
@@ -1045,12 +1045,6 @@ html, body {
 .point__item-bottom-box-04-parts .point__item-bottom-box-04-parts-list:last-child p{
   padding: 0;
 }
-
-@media (max-width: 400px) {
-  .image-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2列にするなど */
-  }
-}
 /* サークル */
 .circle-01{
     top: 50%;
@@ -1209,7 +1203,7 @@ html, body {
   }
 }
 .course__item-content{
-  border: 1px solid #fa7da3;
+  border: .0625rem solid #fa7da3;
   border-radius: .625rem;
 }
 .course__item-content-title{
@@ -1313,9 +1307,9 @@ html, body {
 }
 /* コンテンツ */
 .voices__slick-inner{
-  border: 1px solid #fa7da3;
+  border: .0625rem solid #fa7da3;
   border-radius: .625rem;
-  width: 310px;
+  width: 19.375rem;
   margin: .9375rem auto;
 }
 @media(min-width:768px){
